@@ -1,0 +1,60 @@
+/* Centrer le CV */
+body{
+    width: 70% ;
+    margin-left: 15% ;
+}
+/* Centrer l'entête et Mettre en forme l'entête*/
+header{
+    text-align: center;
+    border-top: 10px solid #688CD8;
+    border-bottom: 10px solid #688CD8;
+    background-color: #E8EFF7;
+}
+
+/* Aligner l'adresse à gauche */
+#adresse {
+    text-align: left;
+    font-family: monospace;
+}
+/* Mettre l'image à droite */
+header img {
+    float: right;
+    width: 15%;
+}
+
+/* Ajouter des barres de chaque partie */
+article{
+    border-top: 10px solid #688CD8;
+    border-bottom: 10px solid #688CD8;
+    background-color: #E8EFF7;
+    margin-top:30pt;
+}
+/* Mettre en forme les titres de chaque partie */
+article h1 {
+    color: #385CA8;
+    font-variant: small-caps;
+    padding: 10px;
+}
+
+/* Mettre en forme la partie année dans la partie Formation */
+article .annee{
+    font-weight: bold;
+    width: 100px;
+    display: block;
+    float: left;
+}
+
+/* Mettre en gras les langues */
+dl dt {
+    font-weight: bold;
+}
+/* Mettre en forme le pied de page */
+footer{
+font-size: xx-small;
+text-transform: uppercase;
+text-align: center;
+margin-top: 50px;
+border-top: 1px solid #688CD8;
+border-bottom: 1px solid #688CD8;
+margin: 4em;
+}
