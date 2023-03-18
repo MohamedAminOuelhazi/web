@@ -1,0 +1,129 @@
+
+/* Feuille de style portrait */
+
+@media (orientation: portrait) {
+    /* Centrer le CV */
+    body {
+    background-color: solid #FF5733;
+    width: 70% ;
+    margin-left: 15% ;
+    }
+    /* Centrer l'entête et Mettre en forme l'entête*/
+    header {
+        text-align: center;
+        background-color: #FF5733;
+        border-top: 18px solid #E6D794;
+        border-bottom: 18px solid #E6D794;
+    }
+    /* Mettre l'image à droite */
+    header img {
+        float: right;
+        width: 15%;
+    }
+    /* Aligner l'adresse à gauche */
+    #adresse {
+        text-align: left;
+        font-family: monospace;
+    }
+    /* Ajouter des barres de chaque partie */
+    article {
+    border-top: 18px solid #E6D794;
+    border-bottom: 18px solid #E6D794;
+    margin-top: 30pt;
+    }
+    /* Mettre en forme les titres de chaque partie */
+    article h1 {
+    color: #385CAB;
+    font-variant: small-caps;
+    padding-bottom: 10px;
+    background-color: #FF5733;
+    }
+    /* Mettre en forme la partie année dans la partie Formation */
+    article .annee{
+        font-weight: bold;
+        width: 100px;
+        display: block;
+        float: left;
+    }
+    /* Mettre en gras les langues */
+    dt {
+    font-weight: bold;
+    }
+    /* Mettre en forme le pied de page */
+    footer {
+    font-size: xx-small;
+    text-transform: uppercase;
+    text-align: center;
+    border-top: 1px solid #E6D794;
+    border-bottom: 1px solid #E6D794;
+    margin-top: 4em;
+    }
+}
+
+
+/* Feuille de style paysage */
+
+
+@media (orientation: landscape) {
+
+    /* Centrer le CV */
+    body {
+        width: 70% ;
+        margin-left: 15% ;;
+    }
+
+    /* Centrer l'entête et Mettre en forme l'entête*/
+    header {
+        text-align: center;
+        background-color: #E8EFF7;
+        border-top: 18px solid #688CD8;
+        border-bottom: 18px solid #688CD8;
+    }
+     /* Mettre l'image à droite */
+    header img {
+        float: right;
+        width: 15%;
+    }
+    /* Aligner l'adresse à gauche */
+    #adresse {
+        text-align: left;
+        font-family: monospace;
+    } 
+    /* Ajouter des barres de chaque partie */
+    article {
+    border-top: 18px solid #688CD8;
+    border-bottom: 18px solid #688CD8;
+    margin-top: 30pt;
+    }
+
+    /* Mettre en forme les titres de chaque partie */
+    article h1 {
+    color: #385CAB;
+    font-variant: small-caps;
+    padding-bottom: 10px;
+    background-color: #E8EFF7;
+    }
+
+    /* Mettre en forme la partie année dans la partie Formation */
+    article .annee{
+        font-weight: bold;
+        width: 100px;
+        display: block;
+        float: left;
+    }
+
+    /* Mettre en gras les langues */
+    dt {
+    font-weight: bold;
+    }
+
+    /* Mettre en forme le pied de page */
+    footer {
+    font-size: xx-small;
+    text-transform: uppercase;
+    text-align: center;
+    border-top: 1px solid #688CD8;
+    border-bottom: 1px solid #688CD8;
+    margin-top: 4em;
+    }
+}
